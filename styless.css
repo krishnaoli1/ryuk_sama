@@ -1,0 +1,728 @@
+/*Homepage starts here*/
+.body1{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	background-image: url("a.jpg");
+	height: 100vh;
+	background-size: cover;
+	position: relative;
+	background-position:center;
+}
+
+nav{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: flex-end;
+	background-color:#7575a3;
+	min-height: 9vh; 
+	background: transparent;
+}
+.title{
+	text-transform: uppercase;
+	color:darkorchid;
+	letter-spacing:3px;
+	font-size: 20px;
+	padding: 10px;
+}
+.nav-bar{
+	width:50%;
+	display: flex;
+	justify-content: space-around;
+}
+#hamburger{
+	display: none;
+}
+.hamburger1{
+	padding: 12px;
+	display: flex;
+	justify-content: flex-end;
+}
+.hamburger1 label{
+	cursor: pointer;
+	background-color: white;
+	width: 50px;
+	height: 37px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+}
+.hamburger1 label span{
+	width: 50%;
+	height: 2px;
+	background-color: dimgray;
+	margin: 3px 0px;
+}
+.hamburger1{
+	display: none;
+}
+.nav-bar li{
+	display: inline-block;
+	list-style: none;
+}
+.nav-bar a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color:blue;
+	text-transform: uppercase;
+	padding: 7px;
+	margin-left: 5px;
+
+}
+
+.nav-bar li:hover{
+	background-color: yellow;
+}
+.welcome-text{
+	width:600px;
+	height: 200px;
+	margin: 6% 28%;
+	text-align: center;
+}
+.welcome-text h1{
+ font-size: 60px;
+ position: relative;
+ font-family:sans-serif;
+ font-weight: bold;
+}
+
+.text1{
+    color: #ff3333;
+}
+
+.text2{
+	color: #808080;
+}
+p{
+	font-size: 20px;
+	color: #FAD0C9FF;
+	position: relative;
+}
+.welcome-text p::before,
+p::after {
+	content: "";
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+.welcome-text p::before{
+	background: gray;
+	animation: text 3s ease-in-out forwards;
+}
+
+@keyframes text{
+	to{
+		left: 100%;
+	}
+}
+
+
+.link a{
+	width: 300px;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+	border-radius: 20px;
+	border:1px solid darkturquoise;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	padding: 15px 15px;
+	margin: 17px 10px;
+	text-decoration: none;
+}
+.link a:hover{
+	color: #fff;
+	background:#666699;
+}
+/*homepage ends here*/
+
+/*Portfolio starts here*/
+
+.body2{
+	background-image: url(ww.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 350px 350px 350px;
+	grid-auto-rows: 200px 200px 200px;
+	grid-gap: 20px;
+	padding: 70px;
+}
+.grid div{
+	text-align: center;
+	padding: 70px 0px;
+}
+.a{
+	background: #7575a3;
+	box-shadow:-20px 20px 7px rgb(0, 0, 0,0.3);
+	transition: 1s;
+}
+.a:hover{
+	background: white;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.b{
+	background: #99e6ff;
+	box-shadow:-20px 20px 7px rgb(0, 0, 0,0.3);
+	transition: 1s;
+}
+.b:hover{
+	background: white;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.c{
+	background: #ccccb3;
+	box-shadow:-20px 20px 7px rgb(0, 0, 0,0.3);
+	transition: 1s;
+}
+.c:hover{
+	background: white;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.d{
+	background: #a3c2c2;
+	box-shadow:-20px 20px 7px rgb(0, 0, 0,0.3);
+	transition: 1s;
+}
+.d:hover{
+	background: white;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+.e{
+	background: #d98c8c;
+	box-shadow:-20px 20px 7px rgb(0, 0, 0,0.3);
+	transition: 1s;
+}
+.e:hover{
+	background: white;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.f{
+	background: #dd99ff;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	box-shadow:-20px 20px 7px rgb(0, 0, 0,0.3);
+	transition: 1s;
+}
+.f:hover{
+	background: white;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+/*Portfolio ends here*/
+
+  
+ /*CV page starts here*/
+
+ body.body4{
+ 	background-color:#6DD5FA;
+ 	box-sizing: border-box;
+ }
+ 
+.container{
+	display: flex;
+	text-align: center;
+	flex-flow: row wrap;
+	padding: 12px;
+	margin: 12px;
+	border-radius: 10px;
+	font-family: cursive;
+}
+.head{
+	background: #614385;
+	height: 170px;
+	margin-bottom: 20px;
+	padding: 0 90px;
+	transition: 1.3s;
+}
+.head:hover{
+	background-color:#185a9d;
+	transform: scaleX(1.0);
+
+}
+.edu{
+	background: #dd2476;
+	height: 200px;
+	padding:0 40px;
+	margin: 0 20px;
+	margin-bottom: 20px;
+	transition: 1.3s;
+}
+.edu:hover{
+	background-color:#b06ab3;
+	transform: scaleY(1.0);
+}
+
+.exp{
+	background: #19547b;
+	height: 200px;
+	padding: 0 5px;
+	margin-bottom: 20px;
+	transition: 1.3s;
+}
+.exp:hover{
+	background-color:#1d2671;
+}
+.skills{
+	background: #243b55;
+	height: 200px;
+	padding: 0 64px;
+	margin: 0 20px;
+	transition: 1.3s;
+	margin-bottom: 20px;
+}
+.skills:hover{
+	background-color:#61045f;
+	transform: scaleZ(1.0);
+}
+.hobby{
+	background:#434343;
+	height: 200px;
+	padding: 0 200px;
+	margin: 0 16px;
+}
+.hobby:hover{
+	background-color:#537895;
+}
+
+/*CV ends here*/
+
+
+/*Contact  page starts here*/
+
+.body3{
+	margin: 0px;
+	padding:0px;
+	background-image: url(ii.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+.contact{
+	margin-top:40px;
+	color:black;
+}
+
+.contact h2{
+	padding: 40px;
+	font-size: 20px;
+	line-height: 18px;
+	transition: ease;
+	transition-duration: 0.8s;
+}
+form{
+	margin-top: 108px;
+}
+.contact-form{
+	width: 680px;
+	border:none;
+	margin-bottom: 23px;
+	background: transparent;
+	border-bottom: 1px solid #334d4d;
+	font-size: 20px;
+	outline: none;
+	color: #fff;
+    transition: 1s;
+}
+input{
+	height: 22px;
+}
+form .submit{
+	background:#663d00;
+	color: #fff;
+	height: 46px;
+	font-size: 22px;
+	margin-top: 22px;
+	font-weight: bold;
+}
+form .submit:hover{
+	background-color: #66b3ff;
+	cursor: pointer;
+}
+ /*Contact page ends here*/
+
+
+ /*Site-report starts here*/
+
+.body5{
+   background-image: url(jj.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 0px;
+   padding: 0px;
+}
+.site-intro{
+	padding: 0px 10px;
+}
+.site-intro h1{
+	font-size: 30px;
+	font-family: sans-serif;
+	color:mediumpurple;
+}
+.site-intro h2{
+	font-size: 30px;
+	font-family: sans-serif;
+	color:mediumpurple;
+}
+.site-intro h3{
+	font-size:30px;
+	font-family: sans-serif;
+	color: mediumpurple;
+}
+
+.site-intro p{
+	font-size: 20px;
+	color:rgb(12, 5, 12);
+	font-family: cursive;
+}
+.reference{
+	padding: 0px 10px;
+}
+.reference h1{
+	font-size: 30px;
+	font-family: sans-serif;
+	color: mediumpurple;
+}
+
+.reference p{
+	font-size: 20px;
+	color:rgb(12, 5, 12);
+	font-family: cursive;
+}
+.reference h2{
+	font-family: sans-serif;
+	color: mediumpurple;
+}
+.reference a{
+	color:#862d86;
+}
+.reference h3{
+	font-family: sans-serif;
+	color: mediumpurple;
+	font-size: 23px;
+}
+
+.reference h4{
+	font-family: sans-serif;
+	color: mediumpurple;
+	font-size: 23px;
+}
+
+.reference h5{
+	font-family: sans-serif;
+	color: mediumpurple;
+	font-size: 23px;
+}
+.reference h6{
+	font-family: sans-serif;
+	color: mediumpurple;
+	font-size: 23px;
+}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	align-content: flex-start;
+	justify-content: center;
+}
+.gallery div{
+	max-width: 380px;
+	margin: 10px;
+
+}
+.gallery img{
+	width: 100%;
+	height: 340px;
+	margin: 8px;
+	padding: 8px;
+}
+.gallery h1{
+	text-align: center;
+	font-size: 30px;
+}
+.gallery h2{
+	text-align: center;
+	font-size: 30px;
+}
+.gallery h3{
+	text-align: center;
+	font-size: 30px;
+}
+.gallery h4{
+	text-align: center;
+	font-size: 30px;
+}
+.gallery h5{
+	text-align: center;
+	font-size: 30px;
+}
+.gallery h6{
+	text-align: center;
+	font-size: 30px;
+}
+
+@media screen and (max-width: 1045px){
+	.nav-bar{
+		width: 65%;
+	}
+	.welcome-text{
+		width: 340px;
+	}
+	.container{
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 768px){
+
+         /*Homepage responsive code starts here*/
+
+	.nav-bar{
+		position: relative;
+		align-items: center;
+		flex-direction: column;
+		width: 30%;
+		right: 0px;
+		top: 2vh;
+		height: 20vh;
+		color: #fff;
+		display: none;
+	}  
+   
+   /*Hamburger code - add both checked and navbar in one code*/
+
+	#hamburger:checked + .nav-bar{
+		display: flex;
+	}
+	.hamburger1{
+		display: flex;
+}
+	.welcome-text{
+		width: 300px;
+		height: 160px;
+		font-size: 45px;
+		bottom: 300px;
+	}
+	.text1{
+		font-size: 50px;
+	}
+	.text2{
+		font-size: 50px;
+	}
+	.welcome-text p{
+		font-size: 25px;
+		width: 140%;
+	}
+	.link a{
+		color: black;
+		background-color: purple;
+	}
+
+	   /*Homepage responsive code ends here*/
+ 
+       /*Portfolio responsive code starts here*/
+
+   .grid{
+		display:block;
+	}
+    .grid .a{
+    	width: 600px;
+    	height: 100px;
+    	margin-bottom: 15px;
+    }
+     .grid .b{
+    	width: 600px;
+    	height: 100px;
+    	margin-bottom: 20px;
+    }
+     .grid .c{
+    	width: 600px;
+    	height: 100px;
+    	margin-bottom: 20px;
+    }
+     .grid .d{
+    	width: 600px;
+    	height: 100px;
+    	margin-bottom: 20px;
+    }
+    .grid .e{
+    	width: 600px;
+    	height: 100px;
+    	margin-bottom: 20px;
+    }
+    .grid .f{
+    	width: 650px;
+    	height: 200px;
+    	margin-bottom: 20px;
+    }
+    /*Portfolio reponsive code ends here*/
+
+	
+	/*CV page responsive code starts here*/
+	.head{
+		width: 510px;
+		font-size: 15px;
+
+	}
+	.edu{
+		width: 700px;
+		font-size: 15px;
+	}
+	.head p{
+      font-size: 15px;
+      width: 600px;
+
+	}
+	.edu p{
+		font-size: 15px;
+		width: 600px;
+	}
+	.exp p{
+		font-size: 15px;
+		width: 600px;
+	}
+	.skills p{
+		font-size: 15px;
+		width: 500px;
+		margin-bottom: 20px;
+	}
+	.hobby{
+		font-size: 15px;
+		width: 600px;
+		margin-bottom: 20px;
+	}
+	
+	   /*Contact Page responsive starts here*/
+	.contact h2{
+		font-size: 25px;
+		width:100%;
+	}
+		/*Contact page responsive code ends here*/
+
+        /*Site-report responsive code starts here*/
+	.site-intro{
+		font-size: 12px;
+	}
+    .reference{
+    	font-size: 12px;
+    }
+}
+   
+      /*Site-report responsive code ends here*/
+
+      @media screen and (max-width: 500px){
+
+	  /*Homepage responsive code starts here*/
+	.welcome-text{
+		width: 200px;
+		height: 100px;
+		top: 60px;
+}
+    .welcome-text p{
+    	font-size: 20px;
+    	width: 150%;
+    	color: dimgray;
+}
+    .text1{
+	   font-size: 45px;
+	   margin: -20px;
+}
+    .text2{
+	  font-size: 45px;
+}
+     /*Homepage responsive code ends here*/
+
+     /*Portfolio reponsive code starts here*/
+
+      .grid .a{
+    	width: 400px;
+    	height: 100px;
+    	margin-bottom: 20px;
+    }
+     .grid .b{
+    	width: 400px;
+    	height: 100px;
+    	margin-bottom: 20px;
+    }
+     .grid .c{
+    	width: 400px;
+    	height: 100px;
+    	margin-bottom: 20px;
+    }
+     .grid .d{
+    	width: 400px;
+    	height: 100px;
+    	margin-bottom: 20px;
+    }
+    .grid .e{
+    	width: 400px;
+    	height: 100px;
+    	margin-bottom: 20px;
+    }
+    .grid .f{
+    	width: 400px;
+    	height: 200px;
+    	margin-bottom: 20px;
+    }
+
+     /*Portfolio responsive code ends here*/
+
+
+       /*Contact page responsive code starts here*/
+
+    .contact h2{
+    	width: 100%;
+    	color:#F2AA4CFF ;
+    	font-size: 15px;
+    }
+
+      /*Contact page responsive code ends here*/
+   
+     /*CV page responsive code ends here*/
+
+    .head p{
+    	width: 400px;
+    }
+    .edu{
+    	width: 450px;
+    }
+    .exp p{
+    	width: 500px;
+    }
+    .skills p{
+    	width: 400px;
+    }
+    .hobby{
+    	width: 200px;
+    }
+
+     /*CV page responsive code ends here*/     
+    
+
+ 
+
+
+
